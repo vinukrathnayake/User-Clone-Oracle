@@ -45,6 +45,10 @@ SPOOL OFF;
 -- Deletes the temporary CLONE_FROM_USER privileges and permissions file
  
 !rm -rf ppuser_&&NEW_USER..sql
+
+ --Uncomment for Windows Systems and comment the above line
+ 
+ --del ppuser_&&NEW_USER..sql
  
 -- Undefines the substitute variables to run as a fresh script when executed again
  
